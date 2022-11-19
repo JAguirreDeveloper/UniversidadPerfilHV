@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Mont_Serrat';
+    src: url('../font/Montserrat-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+Body {
+    background-color: #FFFFFF;
+    font-family: Mont_Serrat;
+    font-size: 15px;
+}
+
+a:link 
+{
+	text-decoration:none;
+}
+
+a:visited 
+{
+    text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+a:active 
+{
+    text-decoration:none;
+}
+
+a[disabled]
+{ 
+    color:#CCCCCC; 
+    text-decoration:none; 
+}
+
+li {
+    list-style: none;
+    white-space: nowrap;
+    width: 650px;
+}
+
+li span {
+    position: relative;
+    bottom: 35px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px -0px 0px 0px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+li::before {
+	content: url(../img/Icono-Verde.png);
+    transform: scale(.12);
+	display: inline-block;
+	width: 20px;
+	margin-left: -20px;
+}
+
+.tablacentral {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    width: 800px;
+}
+
+.contenido {
+    padding: 10px 10px 10px 10px;
+}
+
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+.separador {
+    background-color: #5b0b2b;
+    width: 2px;
+    height: 30px;
+}
+
+.linkmenu {
+    font-family: Mont_Serrat;
+    font-size: 20px;
+    color: #5b0b2b;
+}
+
+.labelmenu {
+    font-family: Mont_Serrat;
+    font-size: 20px;
+    color: #5b0b2b;
+    font-weight: bold;
+}
+
+.labeltitulo{
+    color: #D60B52;
+    font-family: Mont_Serrat;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.labeltituloexperiencia{
+    color: #D60B52;
+    font-family: Mont_Serrat;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.labelsubtituloexperiencia{
+    color: #D60B52;
+    font-family: Mont_Serrat;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.labelhabilidades {
+    color: #D60B52;
+    font-family: Mont_Serrat;
+    font-size: 16px;
+}
+
+.labeltexto {
+    color: #333333;
+    font-family: Mont_Serrat;
+    font-size: 15px;
+    text-align:justify;
+}
+
+.separador2 {
+    background-color: #5b0b2b;
+    width: 800px;
+    height: 2px;
+}
+
+.labeltextoexperiencia {
+    color: #333333;
+    font-family: Mont_Serrat;
+    font-size: 16px;
+    left: 45px;
+}
+
+.labeltextoexperiencia2 {
+    color: #333333;
+    font-family: Mont_Serrat;
+    font-size: 14px;
+    left: 45px;
+}
+
+.labelformaciontitulo {
+    font-family: Mont_Serrat;
+    font-size: 18px;
+    color: #5b0b2b;
+    font-weight: bold;
+}
+
+.labelformacion {
+    color: #333333;
+    font-family: Mont_Serrat;
+    font-size: 15px;
+}
+
+.labelherramientas {
+    font-family: Mont_Serrat;
+    font-size: 15px;
+    color: #5b0b2b;
+    font-weight: bold;
+}
+
+.labelnombretitulo {
+    font-family: Mont_Serrat;
+    font-size: 50px;
+    color: #5b0b2b;
+    font-weight: bolder;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #D60B52;
+    font-family: Mont_Serrat;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0px 0px 0px 0px;
+    display: none;
+    overflow: hidden;
+  }
+
+progress {
+    appearance: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 1.5em;
+    width: 13em;
+    vertical-align: -0.2em;
+    background-color:transparent;
+    
+}
+
+progress::-webkit-progress-inner-element {
+    box-sizing: inherit;
+    height: 100%;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #D60B52;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #93c01f;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
